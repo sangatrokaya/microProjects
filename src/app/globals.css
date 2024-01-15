@@ -1,0 +1,47 @@
+
+.division{
+  position: absolute;
+  font-size: x-large;
+  bottom: 70%;
+  left: 40%;
+  height: 50px;
+}
+
+.heading1{
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.heading2{
+  text-align: center;
+}
+
+.btn{
+  padding: 7px 12px;
+  margin: 10px;
+  background: #5d5a5a;
+  color: #ebebeb;
+  border: none;
+  border-radius: 18px;
+}
+
+.btn:hover{
+  cursor: pointer;
+  color: #5d5a5a;
+  background-color: #ebebeb;
+}
+
+.btn:disabled{
+  cursor: not-allowed;
+  background-color: rgb(91, 39, 39);
+
+}
+
+.reaction{
+  background-color: #bab6b6;
+  padding: 10px 10px;
+  height:20px 10px;
+}
+
+.like{
+  background-color: blue;
+}
