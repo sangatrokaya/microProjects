@@ -9,8 +9,9 @@ const Exercise = (probs)=> {
   return (
     <div className='division'>
     <h2 className='heading2'>{count}</h2>
-    <button onClick={()=> handleChange('inc')}>Increment</button>
-    <button onClick={()=> handleChange('dec')}>Decrement</button>
+    <button className='btn' onClick={()=> handleChange('inc')}>Increment</button>
+    <button className='btn' onClick={()=> handleChange('dec')} disabled = {count === 0}>Decrement</button>
+    <button className='btn' onClick={()=> setcount(0)} disabled = {count === 0}>Reset</button>
     </div>
   )
 }
